@@ -1,0 +1,92 @@
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabs {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-self: flex-end;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.logo > img {
+  height: 6rem;
+}
+.navContainer {
+  padding: 2rem;
+  padding-top: 1rem;
+}
+.descContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.25rem solid black;
+}
+.desc {
+  width: 60vw;
+}
+.desc > p {
+  font-size: 1.25rem;
+}
+a {
+  color: inherit; /* Inherits text color from parent */
+  text-decoration: none; /* Removes underline */
+}
+.one {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(207, 5, 5, 0.2); /* Transparent white */
+  opacity: 0.5;
+  border-radius: 10px;
+  padding: 20px;
+  pointer-events: none;
+}
+.two{
+  position: absolute;
+  right:-5rem;
+  top:-5rem;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(207, 5, 5, 0.2); /* Transparent white */
+  opacity: 0.5;
+  border-radius: 50%;
+  padding: 20px;
+  pointer-events: none;
+}
+.three{
+  position: absolute;
+  bottom:-5rem;
+  left:-5rem;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(207, 5, 5, 0.2); /* Transparent white */
+  opacity: 0.5;
+  border-radius: 50%;
+  padding: 20px;
+  pointer-events: none;
+}
+.four{
+  position: absolute;
+  bottom:0;
+  right:0;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(207, 5, 5, 0.2); /* Transparent white */
+  opacity: 0.5;
+  border-radius: 10px;
+  padding: 20px;
+  pointer-events: none;
+}
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+

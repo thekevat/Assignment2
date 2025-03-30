@@ -1,0 +1,43 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .tabs {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-self: flex-end;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .logo > img {
+    height: 6rem;
+  }
+  .navContainer {
+    padding: 2rem;
+    padding-top: 1rem;
+  }
+  a {
+    color: inherit; /* Inherits text color from parent */
+    text-decoration: none; /* Removes underline */
+  }
+.heading{
+    display:flex;
+    justify-content: center;
+}
+.images{
+    display:flex;
+     justify-content: space-between;
+    flex-wrap:wrap;
+}
+.image{
+    margin:2rem;
+    border:3px solid black;
+}
+.image>img{
+    height:15rem;
+}

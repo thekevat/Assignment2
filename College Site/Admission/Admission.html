@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission</title>
+    <link rel="stylesheet" href="./Admission.css" />
+  </head>
+  <body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+
+    <div class="navContainer">
+      <div class="Navbar">
+        <div class="logo">
+          <img src="../assets/images (3).jpeg" />
+          <h1>Institue of Engineering and Technology, DAVV</h1>
+        </div>
+        <div class="tabs">
+          <a href="../index.html"><h3>Home</h3></a>
+          <a href="../Academics.html"><h3>Academics</h3></a>
+          <a href="../Admission/Admission.html"><h3>Admission</h3></a>
+          <a href="../Gallery/Gallery.html"><h3>Gallery</h3></a>
+        </div>
+      </div>
+    </div>
+    <div class="admissionForm">
+        <h2 style="text-decoration: underline;">Student Admission Form</h2>
+        <form action="submit.php" method="post">
+        
+            <!-- First Name -->
+            <label for="firstname" class="label">First Name:</label>
+            <input type="text" id="firstname" name="firstname" class="input" required>
+            <br><br>
+    
+            <!-- Last Name -->
+            <label for="lastname" class="label">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" class="input" required>
+            <br><br>
+    
+            <!-- Gender -->
+            <label class="label">Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" class="input" required>
+            <label for="male" class="label">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" class="input" required>
+            <label for="female" class="label">Female</label>
+            <input type="radio" id="other" name="gender" value="Other" class="input" required>
+            <label for="other" class="label">Other</label>
+            <br><br>
+    
+            <!-- Class Xth Percentage -->
+            <label for="class10" class="label">Class 10th Percentage:</label>
+            <input type="number" id="class10" name="class10" class="input" min="0" max="100" step="0.1" required>
+            <br><br>
+    
+            <!-- Class 12th Percentage -->
+            <label for="class12" class="label">Class 12th Percentage:</label>
+            <input type="number" id="class12" name="class12" class="input" min="0" max="100" step="0.1" required>
+            <br><br>
+    
+            <!-- JEE Main Rank -->
+            <label for="jeeRank" class="label">JEE Main Rank:</label>
+            <input type="number" id="jeeRank" name="jeeRank" class="input" min="1" required>
+            <br><br>
+    
+            <!-- Submit Button -->
+            <input type="submit" value="Submit" class="input" style="font-size: 1.5rem;margin-top:1rem;border-radius: 1rem;">
+        </form>
+    </div>
+  
+  </body>
+</html>
